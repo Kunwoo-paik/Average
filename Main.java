@@ -10,16 +10,13 @@ class Main {
 	
 	System.out.println("시험 평균을 구합니다.");
 	
-	System.out.print("x의 값 : ");
+	System.out.print("총합점수 : ");
 	int x = stdIn.nextInt();
 	
-	System.out.print("y의 값 : ");
+	System.out.print("시험본 과목 개수 : ");
 	int y = stdIn.nextInt();
 
-  System.out.print("z의 값 : ");
-	int z = stdIn.nextInt();
-	
-	System.out.println("평균은" +  (x+y+z) /3 + "입니다" );
+	System.out.println("평균은" +  (x) /(y) + "입니다" );
 	
 
 
